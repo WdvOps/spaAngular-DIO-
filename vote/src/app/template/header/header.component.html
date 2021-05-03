@@ -1,0 +1,20 @@
+<mat-toolbar class="header mat-elevation-z4">
+    <span>
+        <a>
+            <img class="logo" src="assets/img/angular-icon.svg" alt="logo">
+        </a>
+    </span>
+    <span class="group-title">
+        S.P.A. Vote
+    </span>
+    <span class="group-title-2">
+        <button class="btn-menu" mat-icon-button [matMenuTriggerFor]="menu">
+            <i class="material-icons">more_vert</i>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>Jedi Order<mat-icon class="icon-arrow">arrow_right_alt</mat-icon>
+          </button>
+          <button mat-menu-item>Galactic Empire<mat-icon class="icon-arrow">arrow_right_alt</mat-icon></button>
+        </mat-menu>
+    </span>
+</mat-toolbar>
