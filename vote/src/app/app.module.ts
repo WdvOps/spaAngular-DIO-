@@ -6,10 +6,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './template/home/home.component';
 import { HeaderComponent } from './template/header/header.component';
+import { CandidateOneComponent } from './template/candidate-one/candidate-one.component';
 
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 import { FooterComponent } from './template/footer/footer.component';
 
 @NgModule({
@@ -17,7 +20,8 @@ import { FooterComponent } from './template/footer/footer.component';
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    CandidateOneComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +29,9 @@ import { FooterComponent } from './template/footer/footer.component';
     BrowserAnimationsModule,
     MatIconModule,
     MatToolbarModule,
-    MatMenuModule
+    MatMenuModule,
+    MatCardModule,
+    MatButtonModule
 
   ],
   providers: [],

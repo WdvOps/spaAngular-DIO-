@@ -1,0 +1,21 @@
+.example-card {
+    max-width: 300px;
+    max-height: 250px;
+
+    margin-left: 100px;
+    margin-top: 25px;
+}
+  
+.example-header-image {
+    background-size: cover;
+}
+.btn-vote {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-vote button {
+    border: 1px solid grey;
+    border-radius: 5% ;
+    text-decoration: none;
+}
