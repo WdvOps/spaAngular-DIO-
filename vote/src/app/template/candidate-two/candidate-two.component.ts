@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CandidateTwoComponent implements OnInit {
 
+  title = 'O Império Galáctico'
+
   constructor() { }
 
   ngOnInit(): void {

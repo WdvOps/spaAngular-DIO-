@@ -3,6 +3,11 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 999;
+    padding: 0 2rem;
+
+
 }
 .logo {
     width: 40px;

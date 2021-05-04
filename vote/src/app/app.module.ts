@@ -15,6 +15,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import { FooterComponent } from './template/footer/footer.component';
 import { CandidateTwoComponent } from './template/candidate-two/candidate-two.component';
+import { ResultsComponent } from './template/results/results.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CandidateTwoComponent } from './template/candidate-two/candidate-two.co
     HeaderComponent,
     FooterComponent,
     CandidateOneComponent,
-    CandidateTwoComponent
+    CandidateTwoComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
