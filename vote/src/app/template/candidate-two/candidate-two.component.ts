@@ -6,7 +6,7 @@ import { Component, OnInit, } from '@angular/core';
   selector: 'spa-candidate-two',
   templateUrl: './candidate-two.component.html',
   styleUrls: ['./candidate-two.component.css'],
-  
+
 })
 
 
@@ -16,17 +16,15 @@ export class CandidateTwoComponent implements OnInit {
 
   constructor() { }
 
-
-
   votosEmpire: number = 1;
 
 
   ngOnInit(): void {
-    
+
     this.votosEmpire = 5;
   }
 
-  
+
   adicionaVotoEmpire() {
     this.votosEmpire++;
   }

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output  } from '@angular/core';
+import { Component, OnInit, Input, Output } from '@angular/core';
 import { ResultadosComponent } from '../resultados/resultados.component';
 
 @Component({
@@ -14,17 +14,17 @@ export class CandidateOneComponent implements OnInit {
 
   votosJedi: number = 0;
 
-  
+
 
 
   ngOnInit(): void {
     this.votosJedi = 0;
-    
+
   }
 
   adicionaVotoJedi() {
     this.votosJedi++;
-    
+
   }
 }
 
