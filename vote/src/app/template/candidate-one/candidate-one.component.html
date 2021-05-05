@@ -1,3 +1,6 @@
+
+
+<div class="cards">
 <mat-card class="example-card mat-elevation-z4">
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
@@ -5,16 +8,21 @@
     <mat-card-subtitle>"Depois da escuridão
       brilha a luz"</mat-card-subtitle>
   </mat-card-header>
-  <img mat-card-image src="assets/img/Jedi-Order.jpg" alt="Photo of a Shiba Inu">
+  <img mat-card-image src="assets/img/Jedi-Order.jpg" alt="Photo of Jedi Order">
   <mat-card-content>
     <p>
       A Ordem Jedi foi uma antiga organização monástica de guarnição da paz unificada pela sua crença na Força,
       especificamente o lado luminoso. Os Jedi eram os guardiões da paz e da justiça na República Galáctica por milhares
       de anos antes das Guerras Clônicas.
+      <br>
+      <br>
+      
     </p>
   </mat-card-content>
-  <mat-card-actions class="btn-vote">
-    <a class="btn-vote+" href=""> <button mat-button>VOTE +1</button></a>
-    <a class="btn-info" href="https://starwars.fandom.com/pt/wiki/Ordem_Jedi" target="_blank"><button mat-button>INFO</button></a>
-  </mat-card-actions>
-</mat-card>
+    <div class="btn-voto">
+      <mat-card-actions class="btn-vote">
+          <a class="btn-vote+" href=""> <button (click)="adicionaVotoJedi()" mat-button>VOTE +1</button></a>
+          <a class="btn-info" href="https://starwars.fandom.com/pt/wiki/Ordem_Jedi" target="_blank"><button mat-button>INFO</button></a>
+       </mat-card-actions>
+      
+  </div>

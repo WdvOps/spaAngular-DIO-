@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './template/home/home.component';
 import { HeaderComponent } from './template/header/header.component';
 import { CandidateOneComponent } from './template/candidate-one/candidate-one.component';
+import { CandidateTwoComponent } from './template/candidate-two/candidate-two.component';
 
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
@@ -14,8 +15,9 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import { FooterComponent } from './template/footer/footer.component';
-import { CandidateTwoComponent } from './template/candidate-two/candidate-two.component';
-import { ResultsComponent } from './template/results/results.component';
+import { ResultadosComponent } from './template/resultados/resultados.component';
+
+
 
 @NgModule({
   declarations: [
@@ -25,7 +27,7 @@ import { ResultsComponent } from './template/results/results.component';
     FooterComponent,
     CandidateOneComponent,
     CandidateTwoComponent,
-    ResultsComponent
+    ResultadosComponent,
   ],
   imports: [
     BrowserModule,
