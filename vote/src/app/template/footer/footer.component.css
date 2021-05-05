@@ -1,13 +1,15 @@
 .footer {
     max-width: 1200px;
     height: 50px;
-    margin:0 auto;
+    
+    margin-left: -825px;
     display: flex;
     justify-content: center;
     align-items: center;
 
     position: fixed;
     bottom: 0;
+    
 
     font-size: 12px;
 }
@@ -17,7 +19,7 @@
 .footer span {
     display: flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 20px;
     font-size: 12px;
 }
 ul {

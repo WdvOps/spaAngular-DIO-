@@ -1,6 +1,6 @@
 import { Component, OnInit, } from '@angular/core';
 
-import { votosEmpire } from '../model/votosEmpire';
+
 
 @Component({
   selector: 'spa-candidate-two',
@@ -18,7 +18,7 @@ export class CandidateTwoComponent implements OnInit {
 
 
 
-  votosEmpire: number = 0;
+  votosEmpire: number = 1;
 
 
   ngOnInit(): void {

@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output  } from '@angular/core';
-import { votosJedi } from '../model/votosJedi';
+import { ResultadosComponent } from '../resultados/resultados.component';
 
 @Component({
   selector: 'spa-candidate-one',

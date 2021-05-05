@@ -13,7 +13,9 @@ import {   } from '../resultados/resultados.component'
 
 export class HomeComponent implements OnInit {
 
- 
+  title = 'A Ordem Jedi';
+
+  
   constructor() { }
 
   votosJedi!: number;
@@ -34,4 +36,9 @@ export class HomeComponent implements OnInit {
   adicionaVotoEmpire() {
     this.votosEmpire++;
   }
+
+  resetarVotos()
+ {
+
+ }
 }

@@ -20,8 +20,8 @@ export class ResultadosComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  @Input() resultadoInicialJedi: number = 0;
+  @Input() resultadoInicialJedi: number = 10;
 
-  @Input() resultadoInicialEmpire: number = 0;
+  @Input() resultadoInicialEmpire: number = 10;
 
 }
