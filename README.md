@@ -31,4 +31,4 @@ a utilização do css e do HTML, bem como aprofundar os conhecimentos acerca do 
  A aplicação em funcionamento pode ser vista no link <a href"https://youtube/">SPA Angular Vote</a>
 
 
-< a href = "https://www.linkedin.com/in/will-freittas/"> Linedin </a>
+https://www.linkedin.com/in/will-freittas/
