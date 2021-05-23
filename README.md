@@ -33,3 +33,8 @@ a utilização do css e do HTML, bem como aprofundar os conhecimentos acerca do 
 
 <a target="_blank" href="https://www.linkedin.com/in/will-freittas/">
   <img align="left" alt="LinkdeIN"  color="white" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a target="_blank" href="https://github.com/WdvOps/">
+  <img align="left" alt="LinkdeIN" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+</a>
