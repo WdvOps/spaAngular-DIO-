@@ -28,6 +28,7 @@ desnecessário e que estava causando o bug.
 
  Com esse desafio, pude consolidar o entendimento sobre o funcionamento dos componentes, rotas e métodos que tornam possível esse tipo de aplicação, além de rever 
 a utilização do css e do HTML, bem como aprofundar os conhecimentos acerca do prórpio Angular.
+
  A aplicação em funcionamento pode ser vista clicando aqui :point_right: <a target="_blank" src=" https://www.youtube.com/watch?v=yGNBey_QbG4&t=18s"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
 
 
